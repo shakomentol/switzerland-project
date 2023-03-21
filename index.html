@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <h1 onclick="myFunction()"  id="colortitle">SWITZERLAND NATURE</h1>
+        </div>
+        <div class="list">
+            <ul class="ul-list">
+                <li>News</li>
+                <li>Blog</li>
+                <li class="information">Information</li>
+                <li>Go back</li>
+            </ul>
+        </div>
+    </div>
+    <div class="firstpage">
+        <div class="firstpage-information">
+            <p id="text" >
+                There are so many things to love about Switzerland; the chocolate, the cheese, the mountains,
+                 the clean air. The Swiss Alps are some of the most majestic and awe-inspiring mountain ranges
+                  in the world, and a visit to them is a must for any traveler.
+
+                  If you’re looking for the best mountains in Switzerland, you’ve come to the right place.  In this
+                   blog post, we’ll be discussing some of the best Swiss mountains to visit and providing some 
+                   information on each one. Here are our picks for the best Switzerland mountains.
+            </p>
+        </div>
+        <div class="container">
+            <div id="picture1" class="container-items">
+                <img src="pictures/beautiful-mountain-lake-in-the-swiss-alps-royalty-free-image-1658142373.jpg" alt="sunrise">
+            </div>
+            <div id="picture2" class="container-items">
+                <img src="pictures/Switzerland-scaled.jpg" alt="sunrise">
+            </div>
+        </div>
+        <div class="container">
+            <div id="picture3" class="container-items">
+                <img src="pictures/Valais_Alps.jpg" alt="sunrise">
+            </div>
+            <div id="picture4" class="container-items">
+                <img  src="pictures/Sunrise-on-the-Matterhorn.jpg" alt="sunrise">
+            </div>
+        </div>
+    </div>
+    <button class="button">change </button>
+    <div class="slideshow-container">  
+        <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="pictures/Jungfrau-Switzerland.jpg.webp" alt="foto1">
+       </div>
+ 
+       <div class="mySlides fade">
+       <div class="numbertext">2 / 3</div>
+       <img src="pictures/Switzerland-Main.webp" alt="foto2">
+       </div>
+       <div class="mySlides fade">
+       <div class="numbertext">3 / 3</div>
+       <img src="pictures/foto3.jpg" alt="foto3">
+       </div>
+       </div>
+       <div class="prev-next-container">
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+       </div>
+    </div>
+ <br>
+
+ <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
